@@ -3,7 +3,7 @@ import string
 
 def generate_password(n):
     # Алфавит: только маленькие буквы
-    chars = string.ascii_lowercase
+    chars = string.ascii_letters
     password = ''.join(random.choice(chars) for _ in range(n))
     return password
 
