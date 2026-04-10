@@ -11,8 +11,9 @@
 
 ### Как запустить:
 
-```bash```
+```bash
 python password_generator.py
+```
 
 ### Авторы:
 
